@@ -57,7 +57,7 @@ namespace ctish.api.ADO
         /// <summary>
         /// 获取Model List
         /// </summary>
-        /// <param name="sql">sql查询语句</param>
+        /// <param name="sql">sql查询语句，修改</param>
         /// <param name="param">参数列表</param>
         /// <returns></returns>
         public List<T> GetList(string sql, params MySqlParameter[] param)
