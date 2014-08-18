@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Apis/Base/BaseHandler.ashx">
+      <publishTime>07/01/2014 01:18:28</publishTime>
+    </File>
+    <File Include="Apis/Base/DemoHandler.ashx">
+      <publishTime>07/01/2014 01:18:29</publishTime>
+    </File>
+    <File Include="Apis/Else/DESEEncryptHandler.ashx">
+      <publishTime>06/30/2014 11:06:54</publishTime>
+    </File>
+    <File Include="Apis/Else/TestHandler.ashx">
+      <publishTime>07/02/2014 13:46:24</publishTime>
+    </File>
+    <File Include="Apis/Kefu/DealSendHandler.ashx">
+      <publishTime>07/07/2014 20:40:54</publishTime>
+    </File>
+    <File Include="Apis/Kefu/OrderHandler.ashx">
+      <publishTime>07/02/2014 03:16:13</publishTime>
+    </File>
+    <File Include="Apis/Kefu/SendHandler.ashx">
+      <publishTime>07/07/2014 10:38:59</publishTime>
+    </File>
+    <File Include="Apis/Msg/ListHandler.ashx">
+      <publishTime>07/08/2014 12:42:13</publishTime>
+    </File>
+    <File Include="Apis/Msg/PushHandler.ashx">
+      <publishTime>07/07/2014 22:24:32</publishTime>
+    </File>
+    <File Include="Apis/Msg/ReceiveHandler.ashx">
+      <publishTime>07/08/2014 12:38:19</publishTime>
+    </File>
+    <File Include="Apis/Order/DetailHandler.ashx">
+      <publishTime>06/30/2014 17:21:41</publishTime>
+    </File>
+    <File Include="Apis/Order/ListHandler.ashx">
+      <publishTime>07/01/2014 04:29:27</publishTime>
+    </File>
+    <File Include="Apis/Order/SendHandler.ashx">
+      <publishTime>06/30/2014 18:07:20</publishTime>
+    </File>
+    <File Include="Apis/Order/SupplierHandler.ashx">
+      <publishTime>07/04/2014 11:11:40</publishTime>
+    </File>
+    <File Include="Apis/Order/TypeListHandler.ashx">
+      <publishTime>07/01/2014 04:29:44</publishTime>
+    </File>
+    <File Include="Apis/Supplier/DealSendHandler.ashx">
+      <publishTime>07/07/2014 14:03:02</publishTime>
+    </File>
+    <File Include="Apis/Supplier/ListHandler.ashx">
+      <publishTime>06/30/2014 19:12:07</publishTime>
+    </File>
+    <File Include="Apis/Supplier/OrderHandler.ashx">
+      <publishTime>07/02/2014 02:03:32</publishTime>
+    </File>
+    <File Include="Apis/Supplier/TypeListHandler.ashx">
+      <publishTime>07/01/2014 04:38:22</publishTime>
+    </File>
+    <File Include="Apis/User/FriendShipHandler.ashx">
+      <publishTime>07/16/2014 21:44:43</publishTime>
+    </File>
+    <File Include="Apis/User/LoginHandler.ashx">
+      <publishTime>06/30/2014 02:47:15</publishTime>
+    </File>
+    <File Include="Apis/User/LogOutHandler.ashx">
+      <publishTime>07/08/2014 14:26:30</publishTime>
+    </File>
+    <File Include="Apis/User/RegisterHandler.ashx">
+      <publishTime>06/30/2014 13:33:45</publishTime>
+    </File>
+    <File Include="Apis/User/SendListHandler.ashx">
+      <publishTime>07/01/2014 00:08:32</publishTime>
+    </File>
+    <File Include="bin/ctish.api.dll">
+      <publishTime>07/17/2014 23:58:38</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>07/02/2014 14:41:25</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/03/2014 22:45:54</publishTime>
+    </File>
+    <File Include="Libs/MySql.Data.dll">
+      <publishTime>07/02/2014 14:41:25</publishTime>
+    </File>
+    <File Include="Libs/Newtonsoft.Json.dll">
+      <publishTime>07/03/2014 22:45:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/17/2014 23:59:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
